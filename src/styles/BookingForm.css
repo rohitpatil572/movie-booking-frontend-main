@@ -1,0 +1,60 @@
+.booking-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .booking-form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .booking-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .booking-form-container label {
+    font-size: 14px;
+  }
+  
+  .booking-form-container input,
+  .booking-form-container select,
+  .booking-form-container button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .booking-form-container .total-price {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .booking-form-container button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .booking-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    text-align: center;
+    color: green;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

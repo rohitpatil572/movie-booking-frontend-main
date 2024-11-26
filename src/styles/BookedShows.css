@@ -1,0 +1,92 @@
+.booked-shows-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .booked-shows-container h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .tickets-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .ticket {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 280px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .ticket h2 {
+    color: #0056b3;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .ticket p {
+    margin: 5px 0;
+  }
+  
+  .ticket-expired {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 280px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .ticket-expired h2 {
+    color: #0056b3;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-expired p {
+    margin: 5px 0;
+  }
+  
+  .arrival-info {
+    color: #ff0000;
+  }
+  
+  .cancel-button {
+    display: block;
+    margin-top: 10px;
+    background-color: #ff4757;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e63946;
+  }
+  
+  .cancel-button-expired {
+    display: block;
+    margin-top: 10px;
+    background-color: #645051;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }

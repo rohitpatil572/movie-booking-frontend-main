@@ -1,0 +1,104 @@
+/* Main container for the form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0; /* Ensure no margin/padding affecting the alignment */
+    padding: 0;
+  }
+  
+  /* Auth container for the form's box */
+  .form-container {
+    width: 100%;
+    max-width: 500px; /* Limit maximum width */
+    background-color: #f1eeee;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px 30px;
+    box-sizing: border-box; /* Include padding in the element's total width */
+  }
+  
+  /* Toggle buttons for switching between Login and Register */
+  .form-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-toggle button {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #f4f4f9;
+    color: #333;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .form-toggle button.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  /* The form layout */
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 15px; /* Add spacing between inputs */
+  }
+  
+  .form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .form input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Links within the form */
+  .form a {
+    color: #007bff;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .form a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 600px) {
+    .auth-container {
+      padding: 15px;
+    }
+  
+    .form h2 {
+      font-size: 20px;
+    }
+  }
+  
